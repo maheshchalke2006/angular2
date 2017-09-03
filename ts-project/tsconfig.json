@@ -1,13 +1,13 @@
 {
 	"include":[
 		"*.ts",
-		"MyTSFile/*.ts"
+		"MyTSFile/*.ts",
+		"src/*.ts"
 	],
 	"exclude":[
 		"*.d.ts",
 		"*.js"
 	],"compilerOptions":{
-		"target":"ES2016",
-		"outDir":"./build"
+		"target":"es5"
 	}
 }
